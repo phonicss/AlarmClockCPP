@@ -467,7 +467,7 @@ void Game::updateAlarmClock() {
     }    
     this->alarmTimeM.setString(ssm.str());
 
-    //check buttons press
+    //check buttons pressed
 
     if(sf::Mouse::isButtonPressed(sf::Mouse::Left)) {
 
